@@ -404,3 +404,55 @@ body{
   cursor: pointer;
   color: white;
 }
+
+/* container */
+.baitap-ds{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* mỗi nhóm Lab */
+.baitap-group{
+  background: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* tiêu đề Lab */
+.baitap-title{
+  padding: 18px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #0b101a;
+  color: #ff3d71;
+
+  transition: 0.3s;
+}
+
+.baitap-title:hover{
+  background: #111827;
+}
+
+/* danh sách con */
+.baitap-sublist{
+  display: flex;
+  flex-direction: column;
+}
+
+/* item con */
+.baitap-phan{
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+
+  border-top: 1px solid #0f172a;
+
+  transition: 0.3s;
+}
+
+.baitap-phan:hover{
+  background: #ff3d71;
+  padding-left: 30px;
+}
