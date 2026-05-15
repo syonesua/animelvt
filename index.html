@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>TopAnime</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <div class="logo">
+      AnimeLVT
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <a href="index.html">Home</a>
+      <a href="#topanimes">Top Anime</a>
+      <a href="#trending">Weekly Trending</a>
+      <a href="baitap.html">Bài Tập</a>
+    </nav>
+
+    <div class="menu-btn" id="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- TrendRN -->
+  <section class="TrendRN">
+
+    <div class="trendrn-content">
+        
+      <span>TOP TRENDING ANIME</span>
+        
+      <h1>Witch Hat Atelier</h1>
+
+      <p>
+        The series follows a girl named Coco, who dreams of being a witch, but in her world only those born with magical abilities are able to become witches.
+      </p>
+
+      <a href="https://www.crunchyroll.com/series/GT00258001/witch-hat-atelier" target="_blank" class="watch-btn">
+  Watch Now
+</a>
+    </div>
+
+  </section>
+
+  <!-- SEARCH -->
+  <section class="search-section">
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search anime..."
+      />
+
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+  </section>
+
+  <!-- TOP ANIME -->
+  <section class="anime-section" id="topanimes">
+
+    <div class="section-title">
+      Top Anime
+    </div>
+
+    <div class="anime-grid" id="animeGrid">
+
+      <!-- CARD -->
+      <div class="anime-card">
+        <img src="images/Re Zero.jpg">
+
+        <div class="anime-info">
+          <h3>Re:Zero - Starting Life in Another World</h3>
+          <span>Fantasy</span>
+        </div>
+      </div>
+
+      <div class="anime-card">
+        <img src="images\Wistoria.jpg">
+
+        <div class="anime-info">
+          <h3>Wistoria: Wand and Sword</h3>
+          <span>Fantasy</span>
+        </div>
+      </div>
+
+            <div class="anime-card">
+        <img src="images/TANDSMR.jpg">
+
+        <div class="anime-info">
+          <h3>The Angel Next Door Spoils Me Rotten</h3>
+          <span>Romance</span>
+        </div>
+      </div>
+
+          <div class="anime-card">
+        <img src="images\Dr. Stone.jpg">
+
+        <div class="anime-info">
+          <h3>Dr. Stone</h3>
+          <span>Adventure</span>
+        </div>
+      </div>
+
+      <div class="anime-card">
+        <img src="images/JJK.png">
+
+        <div class="anime-info">
+          <h3>Jujutsu Kaisen</h3>
+          <span>Fantasy</span>
+        </div>
+      </div>
+
+            <div class="anime-card">
+        <img src="images/IWTETLG.jpeg">
+
+        <div class="anime-info">
+          <h3>I Want to End This Love Game</h3>
+          <span>Romance</span>
+        </div>
+      </div>
+
+      <div class="anime-card">
+        <img src="images/CSM.jpg">
+
+        <div class="anime-info">
+          <h3>Chainsaw Man</h3>
+          <span>Action</span>
+        </div>
+      </div>
+
+      <div class="anime-card">
+        <img src="images/Frieren.jpg">
+
+        <div class="anime-info">
+          <h3>Frieren: Beyond Journey's End</h3>
+          <span>Adventure</span>
+        </div>
+      </div>
+
+      <div class="anime-card">
+        <img src="images/AOT.jpg">
+
+        <div class="anime-info">
+          <h3>Attack On Titan</h3>
+          <span>Action</span>
+        </div>
+      </div>
+
+            <div class="anime-card">
+        <img src="images/COTE.jpg">
+
+        <div class="anime-info">
+          <h3>Classroom of the Elite</h3>
+          <span>Psychological thriller</span>
+        </div>
+      </div>
+
+            <div class="anime-card">
+        <img src="images\DS.jpg">
+
+        <div class="anime-info">
+          <h3>Demon Slayer</h3>
+          <span>Action</span>
+        </div>
+      </div>
+      
+    </div>
+
+  </section>
+
+  <!-- TRENDING -->
+  <section class="ranking-section" id="trending">
+
+    <div class="section-title">
+      Weekly Ranking
+    </div>
+
+    <div class="ranking-list">
+
+      <div class="ranking-item">
+        <span>#1</span>
+        <p>Witch Hat Atelier</p>
+      </div>
+
+      <div class="ranking-item">
+        <span>#2</span>
+        <p>Re:ZERO -Starting Life in Another World- S4</p>
+      </div>
+
+      <div class="ranking-item">
+        <span>#3</span>
+        <p>MARRIAGETOXIN</p>
+      </div>
+
+      <div class="ranking-item">
+        <span>#4</span>
+        <p>Wistoria: Wand and Sword S2</p>
+      </div>
+            <div class="ranking-item">
+        <span>#5</span>
+        <p>I Made Friends with the Second Prettiest Girl in My Class</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    AnimeLVT ©2026 | Copyright Reserved
+  </footer>
+
+  <script src="js/app.js"></script>
+<!-- MODAL -->
+<div class="modal" id="animeModal">
+  <div class="modal-content">
+
+    <span class="close-btn" id="closeModal">&times;</span>
+
+    <img id="modalImg" src="" alt="">
+
+    <div class="modal-info">
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+      <p><strong>Studio:</strong> <span id="modalStudio"></span></p>
+      <p><strong>Genre:</strong> <span id="modalGenre"></span></p>
+
+      <a id="modalLink" href="#" target="_blank" class="watch-btn">
+        Watch Now
+      </a>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
